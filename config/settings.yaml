@@ -1,0 +1,18 @@
+topic: "Metabolic Health / Insulin Resistance"
+
+source:
+  name: "ClinicalTrials.gov"
+  api_base: "https://clinicaltrials.gov/api/v2/studies"
+
+search:
+  terms:
+    - "Metabolic Health"
+    - "Insulin Resistance"
+    - "Prediabetes"
+    - "Metabolic Syndrome"
+    - "Insulin Sensitivity"
+  page_size: 100
+
+output:
+  file: "output/metabolic_health_insulin_resistance_clinicaltrials.md"
+  checkpoint: "output/checkpoint.json"
